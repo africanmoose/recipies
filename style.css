@@ -19,9 +19,23 @@ font-family: 'Roboto Condensed', sans-serif;
 
 ---------------------------------------------------------------------*/
 
+* {
+    margin: 0px;
+    padding: 0px
+}
+
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+
 body {
      color: black;
-     font-size: 14px;
+     font-size: 16px;
      font-family: 'Lato', sans-serif;
      line-height: 1.80857;
      font-weight: normal
@@ -29,11 +43,20 @@ body {
 h1 {
     font-family: 'Prata', serif;
     font-weight: 700;
-    font: size 40px;
+    font: size 70px;
+    margin: 20px;
+    padding: 20px
+}
+ol {
+    text-align: left;
+}
+ul {
+    text-align: left;
 }
 h2 {
     font-family: 'Prata', serif;
-    font: size 30px;
+    font: size 40px;
+    padding: 20px 0px 0px 0px
 }
 h3 {
     font-family: 'Prata'
@@ -46,4 +69,17 @@ h5 {
 }
 h6  {
     font-family: 'Prata'
+}
+.recipe-card {
+    width: 400px;
+    text-align: center;
+    background-color: blanchedalmond;
+    margin: 50px;
+    padding: 50px;
+    box-shadow: 2px 2px black;
+
+}
+.recipe-list {
+    padding: 50px;
+    background-color: blanchedalmond;
 }
